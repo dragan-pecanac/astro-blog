@@ -2,7 +2,7 @@
 author: Dragan Pecanac
 pubDatetime: 2023-01-05T15:20:35Z
 title: CodeEasy Entry-Level Solutions
-postSlug: ""
+postSlug: "codeeasy-entry"
 featured: true
 draft: false
 tags:
