@@ -1,19 +1,19 @@
 import type { SocialObjects } from "./types";
 
 export const SITE = {
-  website: "https://wwwdedryu.com/",
+  website: "https://www.dedryu.com/",
   author: "Dragan Pecanac",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Dragan's game & software development blog, devlog, and portfolio website",
   title: "Dragan Pecanac",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
-  postPerPage: 3,
+  lightAndDarkMode: true, //if disabled, primary color scheme will be used, enabled by default
+  postPerPage: 3, //how many pages will be displayed in each posts page
 };
 
 export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
-  width: 216,
+  enable: false, //false = SITE.title will display as logo
+  svg: true, //specify logo.png or logo.svg under /public/assets directory. only svg and png image file formats are supported; If your logo image is png file format, you have to set `LOGO_IMAGE.svg` => `false`
+  width: 216, //It is recommended that you specify width and height of your logo image
   height: 46,
 };
 
