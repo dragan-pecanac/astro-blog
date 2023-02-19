@@ -1,10 +1,10 @@
 ---
 author: Dragan Pecanac
 pubDatetime: 2023-02-18T05:01:53Z
-title: Ded Pong
+title: Ded Pong - Devlong
 postSlug: ded-pong
 featured: true
-draft: false
+draft: true
 tags:
   - unity
   - game development
